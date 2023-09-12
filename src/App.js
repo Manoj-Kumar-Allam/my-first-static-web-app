@@ -1,5 +1,5 @@
 import './App.css';
-import Lab1Image from './Lab1.png'; 
+import Lab1Img from './Lab1.png'; 
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <p>
         I did my homework!
       </p>
-      <img src={Lab1Image} width="1300" height="600" alt="Lab1"/>
+      <img src={Lab1Img} width="1300" height="600" alt="Lab1"/>
 
     </div>
   );
