@@ -1,14 +1,10 @@
 import './App.css';
-import Lab1Img from './Lab1.png'; 
+import RoutesTree from './RoutesTree';
 
 function App() {
   return (
     <div>
-      <p>
-        I did my homework!
-      </p>
-      <img src={Lab1Img} width="1300" height="600" alt="Lab1"/>
-
+      <RoutesTree />
     </div>
   );
 }
