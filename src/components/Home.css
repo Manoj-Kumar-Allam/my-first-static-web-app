@@ -1,0 +1,15 @@
+.main {
+    text-align: justify;
+    padding: 10px 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.left-half, .right-half {
+    border: 0px;
+    padding: 20px;
+}
