@@ -947,6 +947,26 @@ const Home = () => {
                     </article>
                 </div>
             </div>
+
+            <hr />
+            <section>
+                <h1>Addendum</h1>
+
+                <p>
+I have selected this research paper because it was authored by my research team. I have obtained permission from my professor to ensure that there are no copyright concerns.</p>
+                
+                <h2>HTML Tags used in the Doc</h2>
+                <p>The &lt;section&gt; section tag used to group the related content.</p>
+                <p>The &lt;div&gt; element with the class "main" is used to create a container or section within the webpage for organizing content.</p>
+                <p>The &lt;br&gt; element inserts a line break, creating vertical space between content elements.</p>
+                <p>An &lt;h1&gt; element represents the highest level of heading and is used to define the main title of a section or webpage.</p>
+                <p>The &lt;hr&gt; element creates a horizontal line or thematic break, often used to separate content sections visually.</p>
+                <p>The &lt;p&gt; element defines a paragraph of text, making it suitable for displaying regular content or text paragraphs.</p>
+                <p>The &lt;article&gt; element is used to encapsulate a self-contained piece of content, making it suitable for structuring individual sections or articles within a webpage.</p>
+                <p>An &lt;h2&gt; element represents a secondary heading, commonly used to organize content hierarchically beneath main headings.</p>
+                
+            </section>
+            
         </div>
 
     );
