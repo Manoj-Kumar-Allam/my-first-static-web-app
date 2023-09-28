@@ -1,5 +1,7 @@
 import './Font.css'
 
+import fontPic from './fonts.png';
+
 const Font = () => {
     return (
         <div>
@@ -18,15 +20,17 @@ const Font = () => {
                     <li>Downloaded the God of Font from the dafont website</li>
                     <li>Extracted the files from the downloaded ZIP file</li>
                     <li>File called <b>GODOFWAR.TTF</b> exists in the extracted ZIP file</li>
-                    <li>Copy the <b>GODOFWAR.TTF</b> in <code>'src'</code> folder in the React Project</li>
-                    <li>Now configure the index.css file with <code>@font-face</code> and <code>font-family</code> (for the html tag)</li>
-                    <li>In the <code>@font-face</code>, configure the <code>font-family</code> with a name as <code>font-family: "God of War";</code></li>
-                    <li>Also, congiure src url property of <code>@font-face</code> with the file, (<b>GODOFWAR.TTF</b>) we downloaded and copied to src folder as <code>src: url("GODOFWAR.TTF") format("woff2");</code></li>
+                    <li>Copy the <b>GODOFWAR.TTF</b> to the <code>'src'</code> folder in the React Project</li>
+                    <li>Now configure the index.css file with <code>@font-face</code> and <code>font-family</code> (for the html tag) properties</li>
+                    <li>In the <code>@font-face</code>, configure the <code>font-family</code> with a name as <code>font-family: <b>"God of War";</b></code></li>
+                    <li>Also, congiure src url property of <code>@font-face</code> with the file (<b>GODOFWAR.TTF</b>) we downloaded and copied to src folder as <code>src: url("GODOFWAR.TTF") format("woff2");</code></li>
                     <li>In the above configuration step, we are formmating as woff2 as All major browsers support WOFF/WOFF2</li>
-                    <li>As a final step, we <code>html</code> tag with <code>font-family</code> property with the value of the name we have given in step 7 </li>
-
+                    <li>As a final step, in the index.css file we configure <code>html</code> tag with <code>font-family</code> property with the value of the name we have given in step 7 as <b>"God of War";</b> </li>
+                    <li>Now run the application, you will see the page formmating as <b>GODOFWAR.TTF</b> as below </li>
                 </ol>
             </section>
+
+            <img src={fontPic} width={1300} height={600} alt='explaining a font'></img>
         </div>
     );
 }
